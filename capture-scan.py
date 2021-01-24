@@ -46,7 +46,7 @@ def blinkarray(r,g,b,t):
     unicorn.show()
 
 def sqlreq(sqlcommand,r,c):
-    db = mysql.connector.connect(host="localhost", user="pi", password="pi", database="badge")
+    db = mysql.connector.connect(host="...", user="...", password="...", database="...")
     dbc = db.cursor()
     dbc.execute(sqlcommand)
     if r == 1:
