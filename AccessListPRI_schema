@@ -1,0 +1,12 @@
++---------------------+----------------------+------+-----+---------------------+-------------------------------+                                              
+| Field               | Type                 | Null | Key | Default             | Extra                         |                                              
++---------------------+----------------------+------+-----+---------------------+-------------------------------+                                              
+| id                  | smallint(5) unsigned | NO   | PRI | NULL                | auto_increment                |                                              
+| badge_id            | int(10) unsigned     | NO   | UNI | NULL                |                               |                                              
+| employee_id         | int(10) unsigned     | NO   |     | NULL                |                               |                                              
+| employee_first      | varchar(30)          | NO   |     | NULL                |                               |                                              
+| employee_last       | varchar(30)          | NO   |     | NULL                |                               |                                              
+| last_scan_time      | timestamp            | NO   |     | current_timestamp() | on update current_timestamp() |                                              
+| last_scan_authallow | tinyint(1)           | YES  |     | NULL                |                               |                                              
+| badge_auth          | tinyint(1)           | NO   |     | 1                   |                               |                                              
++---------------------+----------------------+------+-----+---------------------+-------------------------------+
