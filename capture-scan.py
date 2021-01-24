@@ -18,7 +18,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
-dev = InputDevice('/dev/input/event5') # This is the manually proved HID device. -Build auto-detection
+dev = InputDevice('/dev/input/event5') # This is the manually probed HID device. -Build auto-detection
 badgePart = ''
 ascii_codes = {
     0: None, 1: u'ESC', 2: u'1', 3: u'2', 4: u'3', 5: u'4', 6: u'5', 7: u'6', 8: u'7', 9: u'8',
